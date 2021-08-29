@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="main.css" />
+  </head>
 
-<head>
-    <link rel="stylesheet" href="main.css">
-</head>
-
-<body>
+  <body>
     <div class="whatsapp-container">
-        <form class="whatsapp-form">
+      <!-- <form class="whatsapp-form" >
             <input class="phone-number" type="text" required>
             <textarea class="message" type="text" required>
-        </form>
+            <button id="sbmt">Send</button>
+        </form> -->
+      <input class="phone-number" type="text" placeholder="Enter Phone Number" required />
+      <input class="msg" type="text" placeholder="Enter Your Msg here" required />
+      <button id="sbmt">Send Msg</button>
     </div>
     <script src="popup.js"></script>
-</body>
-
+  </body>
 </html>
